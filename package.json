@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-ember-experimental",
-  "version": "0.0.1",
+  "version": "0.0.0-wip",
   "main": "index.js",
   "repository": "https://github.com/lbdm44/vite-plugin-ember-experimental.git",
   "homepage": "https://github.com/lbdm44/vite-plugin-ember-experimental.git",
