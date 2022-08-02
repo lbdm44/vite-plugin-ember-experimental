@@ -1,0 +1,30 @@
+{
+  "name": "vite-plugin-ember-experimental",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/lbdm44/vite-plugin-ember-experimental.git",
+  "homepage": "https://github.com/lbdm44/vite-plugin-ember-experimental.git",
+  "author": "lbdm44",
+  "license": "MIT",
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "release-it": "^15.2.0"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+      "release": true,
+      "releaseName": "Release ${version}",
+      "releaseNotes": null,
+      "autoGenerate": true
+    }
+  },
+  "volta": {
+    "node": "16.16.0",
+    "yarn": "1.22.19"
+  }
+}
