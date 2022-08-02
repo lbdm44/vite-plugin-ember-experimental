@@ -7,6 +7,12 @@
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
+  "files": [
+    "dist",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
     "build:watch": "rollup --config rollup.config.ts --configPlugin typescript -w",
