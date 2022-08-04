@@ -1,7 +1,9 @@
-import foo from './foo';
+import type { Plugin } from 'vite';
 
-function EmberExperimental() {
-  console.log(foo);
+function EmberExperimental(): Plugin {
+  return {
+    name: 'ember-experimental',
+  };
 }
 
 export default EmberExperimental;

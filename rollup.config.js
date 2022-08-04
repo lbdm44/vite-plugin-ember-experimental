@@ -1,9 +1,8 @@
-import type { RollupOptions } from 'rollup';
 import typescript from '@rollup/plugin-typescript';
 
 import pkg from './package.json';
 
-const config: RollupOptions = {
+const config = {
   input: 'src/index.ts',
   output: [
     { file: pkg.main, format: 'cjs', sourcemap: true, exports: 'auto' },
