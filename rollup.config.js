@@ -1,7 +1,11 @@
+// @ts-check
 import typescript from '@rollup/plugin-typescript';
 
 import pkg from './package.json';
 
+/**
+ * @type {import('rollup').RollupOptions}
+ */
 const config = {
   input: 'src/index.ts',
   output: [
