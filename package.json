@@ -34,7 +34,8 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.77.2",
     "typescript": "^4.7.4",
-    "vite": "^3.0.4"
+    "vite": "^3.0.4",
+    "vite-plugin-inspect": "^0.6.0"
   },
   "resolutions": {
     "esbuild": "0.14.53"
