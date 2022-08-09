@@ -1,0 +1,21 @@
+{
+  "name": "vite-plugin-ember-experimental",
+  "version": "0.0.0-wip.0",
+  "main": "lib/index.js",
+  "module": "lib/index.es.js",
+  "types": "lib/index",
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "clean": "rimraf lib"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@types/node": "^18.6.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.77.2",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4",
+    "vite-plugin-inspect": "^0.6.0"
+  }
+}
