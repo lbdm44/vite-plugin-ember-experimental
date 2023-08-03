@@ -15,7 +15,7 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.77.2",
     "typescript": "^4.7.4",
-    "vite": "^3.0.4",
+    "vite": "^3.2.7",
     "vite-plugin-inspect": "^0.6.0"
   }
 }
